@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel'Room Booking</title>
+</head>
+<body>
+    <form action="/submil-form" method="post" align="center" style="border: 2px solid black; padding-bottom: 20px; width: 50%; margin: 0%;" >
+    
+        <h1>Hotel Room Booking Form</h1>
+        <label for="fullname"  >Full Name: </label>
+        <input type="text" id="fullname"><br>
+        <!-- Email -->
+         <label for="email">Email: </label>
+         <input type="email" id="email"><br>
+         <!-- phone no. -->
+        <label for="PhoneNo. ">Phone: </label>
+        <input type="number" id="PhoneNo." ><br>
+          <!-- Check-in Date -->
+        <label for="check-in">Check-in Date: </label>
+        <input type="date" id="check-in"><br>
+        <!-- Check-out date -->
+         <label for="check-out">Check-out Date:</label>
+         <input type="date" id="check-out"><br>
+         <!-- Room Type -->
+          <label for="roomtype">Room Type: </label>
+        <select name="roomtype" id="roomtype">
+            <option value="Single Room">Single Room</option>
+            <option value="double Room">Double Room</option>
+            <option value="triple Room">Triple Room</option>
+         </select><br>
+          <!--No. of Guest  -->
+          <label for="no.ofGuest">Number of Guests</label>
+          <input type="number" id="no.ofGuest" min="1" step="1"><br>
+          <!-- Special Requests -->
+          <label for="specialRequests">Special Requests: </label><br>
+          <textarea name="Special Requests" id="specialRequests" rows="5" cols="40"></textarea><br>
+          <!-- Book Now -->
+          <button type="submit">Book Now</button>
+          <!-- Reset form -->
+          <button type="reset">Reset form</button>
+    
+    </form>
+    
+</body>
+</html>
