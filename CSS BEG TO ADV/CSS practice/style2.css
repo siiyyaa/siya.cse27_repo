@@ -1,0 +1,21 @@
+body {
+    background-color: lightgrey;
+}
+/* Class selector */
+.highlight{
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: italic;
+    background-color: rgb(247, 130, 194);}
+
+/* ID selector */
+/*ID selector has more priority than class selector */
+    #special{
+     text-decoration:rgb(3, 3, 3);
+     text-align: center;
+     font-style: cursive;
+     background-color: aqua;
+     font-size: 25px;
+     color:rgb(10, 9, 9);
+}
