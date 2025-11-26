@@ -1,0 +1,9 @@
+.product{
+     background-color: bisque;
+     color: brown;
+     border:2px solid black;
+     width:300px;
+     padding:20px;
+     margin:30px;
+     text-align:center;
+}
