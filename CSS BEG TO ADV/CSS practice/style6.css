@@ -1,0 +1,19 @@
+        /* Default styles */
+.block-p {
+     display: block; /* Paragraphs are block by default, but explicitly set */
+     background-color: lightblue;
+     margin: 10px 0;
+     }
+.inline-p {
+     display: inline; /* Forces paragraph to inline */
+     background-color: lightgreen;
+     }
+.inline-span {
+     display: inline; /* Spans are inline by default */
+     background-color: lightyellow;
+     }
+.block-span {
+     display: block; /* Forces span to block */
+     background-color: lightcoral;
+     margin: 10px 0;
+     }
