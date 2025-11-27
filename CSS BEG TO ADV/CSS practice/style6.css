@@ -10,7 +10,7 @@
      }
 .inline-span {
      display: inline; /* Spans are inline by default */
-     background-color: lightyellow;
+     background-color: rgb(231, 231, 83);
      }
 .block-span {
      display: block; /* Forces span to block */
