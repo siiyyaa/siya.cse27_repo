@@ -1,0 +1,10 @@
+.container {
+     display: flex; 
+     justify-content: center; 
+     align-items: center; 
+     height: 100px;
+     text-shadow: #a05e79 2px 2px 4px;
+     border: 2px solid hsl(29, 63%, 63%);
+     background-color: #edadc8;
+     text-decoration: wavy underline;
+  }
