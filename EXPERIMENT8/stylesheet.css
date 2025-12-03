@@ -73,4 +73,13 @@ body {
     margin-bottom: 5px;
 }
 
+/* Responsive (Mobile) */
+@media (max-width: 600px) {
+    .cards-row {
+        flex-direction: column;
+    }
 
+    .card {
+        width: 85%;
+    }
+}
