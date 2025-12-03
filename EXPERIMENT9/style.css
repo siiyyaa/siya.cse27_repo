@@ -77,4 +77,23 @@ body {
 .btn:hover {
     background-color: #005fcc;
 }
+/* RESPONSIVE BREAKPOINTS ADDED*/
 
+
+/* Tablets (2 cards in one row) */
+@media (max-width: 900px) {
+    .product-card {
+        width: 45%;
+    }
+}
+
+/* Mobile (single column layout) */
+@media (max-width: 600px) {
+    .product-card {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+}
