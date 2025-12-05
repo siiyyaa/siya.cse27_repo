@@ -1,7 +1,7 @@
 *{
      padding:0;
      margin:0; 
-     color:aliceblue;
+     
      box-sizing: border-box;
 }
 button{
@@ -20,6 +20,27 @@ button{
     background-color: black;
 }
 a{
+     color:aliceblue;
      text-decoration: none;
      margin-right:200px;
+}
+.content-box{
+     background-color: rgba(0,0,0,0.1);
+     border:2px solid black;
+     display:inline-block;
+     height: 100px;
+     margin:none;
+     width:100px;
+
+}
+#content{
+     padding-top: 25px;
+     height:710px;
+}
+
+footer{
+     height: 100px;
+     background-color: black;
+     text-align: center;
+     color:aliceblue
 }
