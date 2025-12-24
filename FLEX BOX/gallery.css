@@ -20,9 +20,6 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
@@ -39,7 +36,4 @@ h1 {
 .gallery::after {
   content: "";
   width: 350px;
-
-  height: 300px;
-  flex-grow: 1;
 }    
