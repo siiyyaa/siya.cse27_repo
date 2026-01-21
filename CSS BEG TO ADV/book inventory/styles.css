@@ -24,3 +24,71 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
+th {
+    background-color: white;
+    font-weight: bold;
+}
+
+/* Row background styles based on status */
+
+tr[class="read"] {
+    background-image: linear-gradient(to right, #d4edda, #c3e6cb);
+}
+
+tr[class="to-read"] {
+    background-image: linear-gradient(to right, #fff3cd, #ffeaa7);
+}
+
+tr[class="in-progress"] {
+    background-image: linear-gradient(to right, #d1ecf1, #bee5eb);
+}
+
+/* Span display */
+span {
+    display: inline-block;
+}
+
+/* Status span styles */
+tr[class="to-read"] span[class="status"] {
+    border: 2px solid #856404;
+    background-image: linear-gradient(to right, #fff3cd, #ffeaa7);
+}
+tr[class="read"] span[class="status"] {
+    border: 2px solid #155724;
+    background-image: linear-gradient(to right, #d4edda, #c3e6cb);
+}
+
+tr[class="in-progress"] span[class="status"] {
+    border: 2px solid #0c5460;
+    background-image: linear-gradient(to right, #d1ecf1, #bee5eb);
+}
+
+/* Rate and status span dimensions */
+span[class="status"], span[class^="rate"] {
+    height: 24px;
+    width: auto;
+    padding: 2px 6px;
+}
+/* Inner rate span styles */
+span[class^="rate"] > span {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 2px;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+}
+
+/* Rating star fills */
+span[class~="one"] span:first-child {
+    background-image: linear-gradient(to bottom, #ffc107, #e0a800);
+}
+
+span[class~="two"] span:nth-child(-n+2) {
+    background-image: linear-gradient(to bottom, #ffc107, #e0a800);
+}
+
+span[class~="three"] span {
+    background-image: linear-gradient(to bottom, #ffc107, #e0a800);
+}
+
